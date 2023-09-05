@@ -17,7 +17,7 @@ import HomeScreen from './src/HomeScreen';
 const rootreducer = combineReducers({
   home:homeReducer,
 })
-
+// seprate navigation
 const store = createStore(rootreducer,applyMiddleware(ReduxThunk))
 const App = ()=>{
   return(
